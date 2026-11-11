@@ -1,0 +1,61 @@
+Implementation Plan: Futuristic 3D Engineering Portfolio
+
+Candidate: Priyanshi Gupta
+Role: Software Engineer & AI/ML Specialist
+Aesthetic Direction: Premium Futuristic Engineering, Midnight Obsidian & Electric Violet Accents with Subtle Glassmorphism
+
+1. System Architecture & Tech Stack
+Core Framework: React 18 + TypeScript + Vite
+Styling: Tailwind CSS with custom glassmorphic utilities and CSS variables
+Icons: Lucide React
+3D Graphics: Three.js / Canvas WebGL interactive neural particle sphere (optimized, zero lag)
+Voice Control: Browser Web Speech API (webkitSpeechRecognition / SpeechRecognition)
+Data Architecture: Single source of truth in src/data/portfolioData.ts for instant updates
+2. Visual Identity & Color Palette
+Dark Mode (Default)
+Canvas / Background: #0B0813 to #100B19 (Deep Obsidian / Midnight)
+Card Surface: rgba(26, 17, 43, 0.7) with subtle border rgba(149, 96, 245, 0.2)
+Primary Accent: #9560F5 (Electric Violet)
+Secondary Accent: #D45AC5 (Neon Pink)
+Tertiary Accent: #F0A6E9 (Soft Lavender)
+Text: Headings #F8FAFC, Body #CBD5E1, Muted #94A3B8
+Light Mode (High Contrast & Professional)
+Canvas / Background: #F8F7FC
+Card Surface: rgba(255, 255, 255, 0.85) with border rgba(113, 53, 168, 0.15)
+Primary Accent: #7135A8 (Deep Violet)
+Secondary Accent: #C026D3 (Fuchsia)
+Text: Headings #0F172A, Body #334155, Muted #64748B
+3. Component Breakdown & Interactive Features
+A. Navigation & Voice Command System
+Sticky Navbar: Smooth blur backdrop, section active indicator, theme toggle.
+Voice Navigator:
+Microphone button with visual active pulse and live speech feedback banner.
+Commands supported: "home", "about", "skills", "projects", "experience", "achievements", "education", "contact".
+Graceful fallback for non-supported browsers with informative tooltip.
+B. Hero Section with 3D Neural Sphere
+Visual: Real-time 3D interactive particle node sphere that gently rotates and reacts to cursor coordinates.
+Copy: High-impact headline targeting AI/ML & Software Engineering roles.
+Actions: One-click View Projects, Download Resume (/Priyanshi_Gupta.pdf), Contact Me, and direct links to GitHub, LinkedIn, and LeetCode.
+C. About Me & Engineering Philosophy
+Balanced layout featuring her background at PSIT Kanpur (8.92 CGPA), Infosys Springboard internship, competitive ranking (Top 9.67% LeetCode), and target career locations.
+D. Interactive Technical Skills Grid
+Categorized skill cards (Languages, Web Dev, Backend, AI/ML, Cloud/DevOps, Core CS).
+Cross-Linking Feature: Clicking any skill highlights the projects that utilize that skill and scrolls smoothly to the Projects section!
+E. Projects Explorer (Search, Filter & Modal)
+Search Bar: Live instant search across project titles, tags, and problem statements.
+Category Filters: All, Full-Stack, AI/ML, Computer Vision.
+Detailed Modal: Comprehensive view showcasing problem statement, solution, architecture, challenges, and direct repository links.
+F. Experience & Education Timelines
+Animated vertical timelines with tech badges and quantifiable achievements.
+G. Achievements & Certifications Vault
+Competitive cards (TCS CodeVita Global 87th, LeetCode Top 9.67%, 5-Star HackerRank).
+Certification badges with direct link to her verified Google Drive folder.
+H. Contact Form & Footer
+Frontend-validated message form with immediate feedback, copy-to-clipboard email and phone controls.
+4. Verification & Testing Steps
+Verify package installation and TypeScript compilation (tsc --noEmit).
+Test responsive layouts on mobile, tablet, and desktop viewports.
+Verify dark/light theme switching with local storage persistence.
+Verify Web Speech API microphone toggle and navigation triggers.
+Verify resume download and external links (GitHub, LinkedIn, Google Drive, LeetCode).
+Build production bundle (npm run build) ensuring zero errors.
