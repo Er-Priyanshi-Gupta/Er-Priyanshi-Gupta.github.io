@@ -205,3 +205,4 @@ export const ThreeCanvas: React.FC<ThreeCanvasProps> = ({ isDark = true }) => {
     />
   );
 };
+

@@ -582,3 +582,4 @@ export const portfolioData = {
     }
   ] as Certification[]
 };
+

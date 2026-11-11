@@ -112,3 +112,4 @@ To edit any details, simply open `src/data/portfolioData.ts`. You can:
 ---
 
 © 2026 Priyanshi Gupta. Built with algorithmic precision and modern engineering.
+

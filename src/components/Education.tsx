@@ -85,3 +85,4 @@ export const Education: React.FC = () => {
     </section>
   );
 };
+

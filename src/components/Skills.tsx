@@ -208,3 +208,4 @@ export const Skills: React.FC<SkillsProps> = ({ onSkillClick }) => {
     </section>
   );
 };
+

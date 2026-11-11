@@ -301,3 +301,4 @@ export const VoiceNavigation: React.FC<VoiceNavigationProps> = ({ onNavigate, on
     </>
   );
 };
+
