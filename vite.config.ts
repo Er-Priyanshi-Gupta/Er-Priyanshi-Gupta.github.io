@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: 'index.dev.html',
       output: {
         manualChunks: {
           three: ['three'],
